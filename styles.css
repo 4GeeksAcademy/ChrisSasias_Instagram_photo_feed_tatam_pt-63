@@ -1,7 +1,33 @@
-.post{
 
+* {
+  border: 1px dashed red;
+	min-height: 10px;
 
 }
-div {
-  border: 1px solid red;
+
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
+
+.post {
+
+height: 100px;
+width: 400px;
+
+}
+
+.post-header {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.html-5{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
