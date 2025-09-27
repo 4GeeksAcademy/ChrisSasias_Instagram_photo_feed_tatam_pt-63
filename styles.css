@@ -1,7 +1,12 @@
 
 * {
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   margin: 0;
+  }
+
+body{ 
+ background-color: rgb(28, 22, 67);
+ font-family: 'Roboto', sans-serif;
 }
 
 .post-master { 
@@ -12,15 +17,16 @@
 }
 
 .post-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .top{
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .icons-right{
@@ -37,19 +43,19 @@ align-items: center;
  }
 
 .html{
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
   }
 
  .html-img {
-font-size: 50px;
+   font-size: 27px;
+   margin-left: 5px;
+   margin-right: 10px;
  }
 
 .post-img img {
   width: 100%;
-  display: block; 
-
 }
 
  .icons {
@@ -60,15 +66,30 @@ font-size: 50px;
  }
  
  .lorem {
-
- margin-top: 20px;
- margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .icons-right i,
-.save i, .menu i{
-  font-size: 26px; 
-  margin-right: 10px;
+.save , .menu i{
+  font-size: 30px;
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-bottom: 8px;
   cursor: pointer;
 }
 
+.likes, .lorem{
+  
+  margin-left: 6px;
+  margin-right: 6px;
+  
+}
+
+.element1 {
+  font-size: 16px;  
+}
+
+.element {
+  font-size: 13px;  
+}
